@@ -1,5 +1,5 @@
-import React from "react";
-import { withStyles } from "@material-ui/core/styles";
+import React from 'react';
+import { withStyles } from '@material-ui/core/styles';
 // import TextField from "@material-ui/core/TextField";
 // import Typography from "@material-ui/core/Typography";
 // import Button from "@material-ui/core/Button";
@@ -14,23 +14,23 @@ const CreatePin = ({ classes }) => {
 
 const styles = theme => ({
   form: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    flexDirection: "column",
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
     paddingBottom: theme.spacing.unit
   },
   contentField: {
     marginLeft: theme.spacing.unit,
     marginRight: theme.spacing.unit,
-    width: "95%"
+    width: '95%'
   },
   input: {
-    display: "none"
+    display: 'none'
   },
   alignCenter: {
-    display: "flex",
-    alignItems: "center"
+    display: 'flex',
+    alignItems: 'center'
   },
   iconLarge: {
     fontSize: 40,

@@ -27,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js --ext .jsx ."
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,5 +38,13 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
+  }
 }

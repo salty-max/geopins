@@ -1,5 +1,5 @@
-import React from "react";
-import { withStyles } from "@material-ui/core";
+import React from 'react';
+import { withStyles } from '@material-ui/core';
 // import InputBase from "@material-ui/core/InputBase";
 // import IconButton from "@material-ui/core/IconButton";
 // import ClearIcon from "@material-ui/icons/Clear";
@@ -12,8 +12,8 @@ const CreateComment = ({ classes }) => {
 
 const styles = theme => ({
   form: {
-    display: "flex",
-    alignItems: "center"
+    display: 'flex',
+    alignItems: 'center'
   },
   input: {
     marginLeft: 8,
@@ -21,7 +21,7 @@ const styles = theme => ({
   },
   clearButton: {
     padding: 0,
-    color: "red"
+    color: 'red'
   },
   sendButton: {
     padding: 0,
