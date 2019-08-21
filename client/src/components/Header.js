@@ -31,7 +31,7 @@ const Header = ({ classes }) => {
                 src={currentUser.picture}
                 alt={currentUser.name}
               />
-              <Typography variant="h5" color="inherit" noWrap>
+              <Typography variant="h6" color="inherit" noWrap>
                 {currentUser.name}
               </Typography>
             </div>
@@ -62,7 +62,7 @@ const styles = theme => ({
     display: 'none'
   },
   picture: {
-    height: '50px',
+    height: '40px',
     borderRadius: '90%',
     marginRight: theme.spacing.unit * 2
   }
